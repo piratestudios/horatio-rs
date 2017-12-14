@@ -1,0 +1,6 @@
+[package]
+name = "horatio"
+version = "0.1.0"
+authors = ["Philip Cunningham <hello@filib.io>"]
+
+[dependencies]
