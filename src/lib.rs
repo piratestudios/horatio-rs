@@ -42,7 +42,7 @@ pub enum ApiError {
 
 pub fn ping(base_url: &str, id: &String) -> Result<Ping, ApiError> {
     // Create path.
-    let path = format!("{}/api/ping", base_url);
+    let path = format!("{}/ping", base_url);
 
     // Instantiate new client.
     let client = Client::new();
